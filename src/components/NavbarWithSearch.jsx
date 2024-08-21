@@ -1,11 +1,11 @@
 import React from "react";
 import {
   Navbar,
-  Typography,
   Input,
   Collapse,
   Avatar,
   Button,
+  Breadcrumbs,
 } from "@material-tailwind/react";
 
 import { BellAlertIcon, Bars3Icon } from "@heroicons/react/24/outline";
@@ -31,13 +31,12 @@ export function NavbarWithSearch() {
   return (
     <Navbar className="mx-auto px-4 py-1 lg:px-8 lg:py-2 rounded-none sticky top-0 max-w-[1536px] z-50">
       <div className=" mx-auto flex flex-wrap items-center justify-between text-blue-gray-900">
-        <Typography
-          as="a"
-          href="#"
-          className="mr-4 cursor-pointer py-1.5 font-medium text-sm sm:text-base"
-        >
-          Dashboard V2
-        </Typography>
+        <Breadcrumbs className="bg-white">
+          <a href="#" className="opacity-60">
+            Home
+          </a>
+          <a href="#">Dashboard V2</a>
+        </Breadcrumbs>
         <div className="hidden items-center gap-x-2 flex-grow justify-center md:flex">
           <div className="relative flex w-full gap-2 md:w-max">
             <Input

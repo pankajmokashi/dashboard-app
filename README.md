@@ -1,8 +1,25 @@
-# React + Vite
+# Project: Tailwind Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Overview
+This project is a React-based dashboard application using Vite as the build tool. The project integrates Tailwind CSS for styling, Redux for state management.
 
-Currently, two official plugins are available:
+### Dependencies
+- @heroicons/react
+- @material-tailwind/react
+- @reduxjs/toolkit
+- prop-types
+- react-redux
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Running the Project
+To run the project locally, follow these steps:
+
+### Install Dependencies:
+Make sure you have Node.js installed. Clone the repository and navigate to the project directory. Run the following command to install the dependencies:
+```
+npm install
+```
+
+Start the development server with:
+```
+npm run dev
+```

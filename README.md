@@ -1,4 +1,4 @@
-# Project: Tailwind Dashboard
+# Project: Dashboard
 
 ### Overview
 This project is a React-based dashboard application using Vite as the build tool. The project integrates Tailwind CSS for styling, Redux for state management.
@@ -23,3 +23,6 @@ Start the development server with:
 ```
 npm run dev
 ```
+
+### Deployed Link
+Netlify - https://dashboard-v2-app.netlify.app/
